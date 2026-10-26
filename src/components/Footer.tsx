@@ -18,20 +18,13 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer__grid">
           <div className="footer__brand">
-            <span
-              style={{
-                display: "inline-grid",
-                placeItems: "center",
-                width: "2.6rem",
-                height: "2.6rem",
-                borderRadius: "50%",
-                background: "var(--vermilion)",
-                fontFamily: "var(--serif-jp)",
-              }}
-              aria-hidden="true"
-            >
-              赤
-            </span>
+            <img
+              className="footer__logo"
+              src="images/logo.png"
+              alt="Akami Sushi"
+              width="52"
+              height="52"
+            />
             <p>{t("footer.tagline")}</p>
           </div>
 

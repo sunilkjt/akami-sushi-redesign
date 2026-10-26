@@ -98,12 +98,8 @@ export default function Navbar() {
       <a className="skip" href="#principal">{t("nav.skip")}</a>
       <header className={`nav ${scrolled || openMobile ? "nav--solid" : ""}`}>
         <div className="wrap nav__inner">
-          <a href="#inicio" className="nav__brand">
-            <span className="nav__mark" aria-hidden="true">赤</span>
-            <span className="nav__name">
-              Akami
-              <small>Sushi Lisboa</small>
-            </span>
+          <a href="#inicio" className="nav__brand" aria-label="Akami Sushi">
+            <img className="nav__logo" src="images/logo.png" alt="Akami Sushi" width="44" height="44" />
           </a>
           <nav aria-label="Principal">
             <ul className="nav__links">
