@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sunilkjt.github.io/akami-sushi-redesign/sitemap.xml
